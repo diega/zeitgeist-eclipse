@@ -18,7 +18,6 @@
   <modules>
     <module>org.gnome.zeitgeist.eclipse.feature</module>
     <module>org.gnome.zeitgeist.eclipse.plugin</module>
-    <module>org.gnome.zeitgeist.eclipse</module>
   </modules>
 
   <build>
