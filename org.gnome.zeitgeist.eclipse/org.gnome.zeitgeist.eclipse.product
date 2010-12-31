@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Eclipse Zeitgeist Product" uid="org.gnome.zeitgeist.eclipse.plugin.product" application="org.gnome.zeitgeist.eclipse.plugin.application" version="1.0.0" useFeatures="false" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <plugins>
+      <plugin id="org.eclipse.rcp"/>
+      <plugin id="org.gnome.zeitgeist.eclipse.plugin"/>
+   </plugins>
+
+
+</product>
